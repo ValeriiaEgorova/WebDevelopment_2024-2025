@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+</head>
+<body>
+    <h1>Форма обратной связи</h1>
+    <form action="process_feedback.php" method="POST">
+        <label for="first_name">Имя:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="surname">Фамилия:</label><br>
+        <input type="text" id="surname" name="surname" required><br><br>
+
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="feedback">Обратная связь:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+        <label>Ваш пол:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br><br>
+
+        <label>Где вы слышали о нашем веб-сайте?</label><br>
+        <input type="checkbox" id="source1" name="source[]" value="social_media">
+        <label for="source1">Социальные сети</label><br>
+        <input type="checkbox" id="source2" name="source[]" value="friends">
+        <label for="source2">От друзей</label><br>
+        <input type="checkbox" id="source3" name="source[]" value="search_engine">
+        <label for="source3">Поиск в интернете</label><br>
+        <input type="checkbox" id="source4" name="source[]" value="advertisement">
+        <label for="source4">Реклама</label><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

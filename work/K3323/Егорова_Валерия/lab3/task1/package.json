@@ -1,0 +1,21 @@
+{
+  "name": "practice3",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.3",
+    "del": "^8.0.0",
+    "fs": "^0.0.1-security",
+    "gulp-rename": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}

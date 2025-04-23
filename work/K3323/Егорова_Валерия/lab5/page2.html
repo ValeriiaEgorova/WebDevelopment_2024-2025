@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet"  href="./page2.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@300&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400&display=swap" />
+</head>
+<body>
+  	<div class="frame">
+    		<div class="title-2-wrapper" id="left-section">
+      			<div class="title-2">IMAGE MAP</div>
+                <img class="image-icon" alt="" src="breakfast.png" usemap="#image-map">
+                <map name="image-map">
+                    <area target="_blank" alt="" title="Масло Président обладает мягкой консистенцией, не крошится и отлично ложится на бутерброд." href="https://president-cheese.ru/category/slivochnoe-maslo" coords="227,91,261,148" shape="rect"></area>
+                    <area target="" alt="" title="" href="#" coords="515,414,61" shape="circle"></area>
+                    <area target="" alt="" title="" href="#" coords="0,180,22,185,30,159,71,146,108,160,127,201,100,237,64,248,56,272,22,289,1,288" shape="poly"></area>
+                    <area target="" alt="" title="" href="#" coords="260,0,362,139,533,24,540,14,529,1" shape="poly"></area>
+                    <area target="" alt="" title="" href="#" coords="419,145,372,172,367,236,402,267,512,205,492,178" shape="poly"></area>
+                    <area target="" alt="" title="" href="#" coords="286,392,146" shape="circle"></area>
+                    <area target="_blank" alt="" title="Масло Président обладает мягкой консистенцией, не крошится и отлично ложится на бутерброд." href="https://president-cheese.ru/category/slivochnoe-maslo" coords="231,46,250,22,292,55,274,82" shape="poly"></area>
+                </map>
+    		</div>
+    		
+    		<div class="header-1" id="right-section">
+      			<ol class="tap-the-map">
+        			<li>Tap the bun to change color</li>    			
+        			<li>Tap "President" to follow the link</li>      			
+        			<li>Tap coffee to shake the picture</li>
+         			<li>Tap the book to turn lights on</li>
+        			<li>Tap strawberry pieces to open a pop-up window</li>
+                    <li>Tap the plate <span id="hidden_content" class="hidden"> to see this</span></li>
+      			</ol>
+    		</div>
+            <div class="modal-overlay" id="modal">
+                <div class="modal-content">
+                    <h2>Juicy Strawberries</h2>
+                    <p>These strawberry pieces were hand-picked from organic farms.</p>
+                    <button class="close-modal">Close</button>
+                </div>
+            </div>
+  	</div>
+    <script src="page2.js"></script>
+</body>
+</html>
